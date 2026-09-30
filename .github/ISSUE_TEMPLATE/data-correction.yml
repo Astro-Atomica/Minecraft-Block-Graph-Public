@@ -39,7 +39,7 @@ body:
     id: build
     attributes:
       label: Website release and build number
-      description: Copy from the footer if available.
+      description: Copy from the footer or https://blockgraph.projects.astroatomica.net/release.json if available. This is separate from the Minecraft dataset version.
   - type: textarea
     id: current
     attributes:

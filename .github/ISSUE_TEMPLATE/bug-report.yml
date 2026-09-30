@@ -28,12 +28,12 @@ body:
     id: build
     attributes:
       label: Website release and build number
-      description: Copy from the footer, or say that the page will not load.
+      description: Copy from the footer or https://blockgraph.projects.astroatomica.net/release.json. Say if unavailable; note an older build in a tab kept open through an update.
   - type: input
     id: environment
     attributes:
       label: Browser, operating system, and device
-      description: Include browser version if known; for layout issues, include orientation or window size.
+      description: Include browser version if known; for layout issues, include Day/Night, browser zoom, orientation or window size. For accessibility, include keyboard or screen-reader details.
   - type: textarea
     id: steps
     attributes:

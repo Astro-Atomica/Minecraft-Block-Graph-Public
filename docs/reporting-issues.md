@@ -15,11 +15,21 @@ Include:
 - **Steps:** a short numbered sequence from opening the page to seeing the problem.
 - **Result:** what you expected and what actually happened, including any visible error text.
 
+The home page is an introduction; the tools have their own URLs. Open the tool where the problem happens and copy that address. Clicking the logo/title returns to the introduction. Links and edition selections are useful reproduction details; you do not need to include the website's source code.
+
+For a page without a version footer, open [website release metadata](https://blockgraph.projects.astroatomica.net/release.json) and copy `releaseVersion`, `buildNumber`, and `releaseDate`. The release date uses UTC and can differ from your local calendar date. If you kept an app tab open through an update, note the build in that tab as well as the metadata; they may differ. The website build and the Minecraft dataset/game version are separate numbers.
+
 Example of a useful description (illustrative, not a known bug):
 
 > On Progression with Bedrock selected, I added a crafting-table goal, entered four oak planks, and chose Inventory solution. I expected a plan to craft the table, but the goal remained unsolved. It happens again with a new plan. The attached plan contains my starting items and goal.
 
 If you try reloading or another browser, include the result. Export any important plan or draft before clearing browser storage: saved state can be necessary to reproduce the problem.
+
+## Loading, appearance, and accessibility problems
+
+If a page is blank, stuck loading, or displays a retry message, include the URL, visible error, approximate time and time zone, and whether it happens again after a normal reload. Say whether the introduction loads and which tool fails. If you already use extensions, content blockers, a VPN, or restricted networking, mention anything relevant; changing those settings is not required to file a report. Do not clear saved plans just to report a loading failure.
+
+For appearance issues, include **Day** or **Night**, your browser zoom and approximate screen/window size, and which control is clipped or hard to read. For keyboard or assistive-technology problems, describe the keys you pressed, where focus moved, and the screen reader if applicable. A text description is sufficient when you cannot provide a screenshot.
 
 ## Solver and saved-plan problems
 
