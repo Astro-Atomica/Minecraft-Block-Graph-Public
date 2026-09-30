@@ -1,0 +1,61 @@
+name: Minecraft data correction
+description: Report incorrect or missing Minecraft information, routes, or farm requirements.
+title: "[Data] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Java and Bedrock have separate versioned datasets. Check the affected page's conditions and [coverage notes](https://blockgraph.projects.astroatomica.net/coverage/). Reports of missing or incorrect behavior are welcome, including when you do not yet have supporting evidence. Reports and attachments are public.
+  - type: input
+    id: subject
+    attributes:
+      label: Affected resource, route, trade, or farm
+      description: Use the visible name or Minecraft identifier.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Affected page URL
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition affected
+      options:
+        - Bedrock
+        - Java
+        - Both editions
+        - Unsure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Website dataset version and actual game version
+      description: Distinguish the version in the website footer from the game version you played. Say if unknown or not tested.
+  - type: input
+    id: build
+    attributes:
+      label: Website release and build number
+      description: Copy from the footer if available.
+  - type: textarea
+    id: current
+    attributes:
+      label: What the website currently says or shows
+      description: Describe the incorrect claim or missing information.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Explain what you believe should change, or what needs investigation.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources or in-game observations
+      description: Link relevant documentation, release notes, or Wiki pages. For your own tests, include steps, game conditions, mods/add-ons/experiments, and screenshots or video. Say if you have not tested it.

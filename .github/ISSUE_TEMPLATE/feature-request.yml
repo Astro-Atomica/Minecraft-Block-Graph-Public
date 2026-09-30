@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest an improvement to The Block Graph website.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing requests first. Explain the task you want to accomplish; you do not need a technical solution. Reports and attachments are public.
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do?
+      description: Describe your use case and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+      description: Include an example of how it would help.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Related page or tool
+      description: Include a URL and the selected edition if relevant.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds or additional context
+      description: Optional alternatives, screenshots, or mockups.

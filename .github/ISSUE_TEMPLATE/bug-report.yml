@@ -1,0 +1,65 @@
+name: Website bug
+description: Report broken website behavior, layout, accessibility, or solver results.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing reports first. See the [reporting guide](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/blob/main/docs/reporting-issues.md) for help. Reports and attachments are public; remove private information. Optional details can be left blank.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page URL
+      placeholder: https://blockgraph.projects.astroatomica.net/progression/
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition selected on the website
+      options:
+        - Bedrock
+        - Java
+        - Both editions
+        - Not applicable / unsure
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Website release and build number
+      description: Copy from the footer, or say that the page will not load.
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, operating system, and device
+      description: Include browser version if known; for layout issues, include orientation or window size.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the resource/farm name and relevant selections or inputs.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include visible error text and whether the problem happens consistently.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, saved plan, or additional details
+      description: For solver problems, use Save plan on Progression and include the reviewed JSON export. Attach it if supported, or paste it in a code block. Include a screenshot or description of the result separately.

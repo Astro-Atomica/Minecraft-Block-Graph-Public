@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reporting guide
+    url: https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/blob/main/docs/reporting-issues.md
+    about: Help finding build numbers, recording reproduction steps, and sharing plan exports.
+  - name: Contact Astro Atomica
+    url: https://www.astroatomica.com/contact
+    about: Use for private details or support without a GitHub account. Mention The Block Graph.
