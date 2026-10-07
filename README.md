@@ -1,10 +1,14 @@
 # The Block Graph — public support
 
-[Open The Block Graph](https://blockgraph.projects.astroatomica.net/) · [Report an issue](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues/new/choose) · [Search existing reports](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues)
+[Open The Block Graph](https://blockgraph.projects.astroatomica.net/) · [Report a bug or request a feature](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public) · [Search existing reports](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues)
 
 The Block Graph is an Astro Atomica website for exploring how Minecraft resources connect, comparing Java and Bedrock acquisition routes, and planning builds. This repository is its public support tracker and reporting guide. Website source code and internal development work are maintained separately.
 
 ## What to report
+
+No login is needed to read this repository or browse issues and feature requests. To submit a report without logging in, use [Contact Astro Atomica](https://www.astroatomica.com/contact), mention **The Block Graph**, and include the affected URL and details below. Contact reports are sent privately; they do not automatically create a GitHub issue.
+
+The GitHub forms below are an optional route for people with a GitHub account. GitHub requires sign-in to create issues, comment, or subscribe to updates.
 
 | Report | Use it for |
 | --- | --- |

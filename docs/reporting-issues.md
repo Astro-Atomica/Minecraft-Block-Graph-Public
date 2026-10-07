@@ -1,6 +1,8 @@
 # Reporting an issue
 
-[Choose a report form](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues/new/choose) · [Back to the support overview](../README.md)
+[Public support repository](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public) · [Browse existing reports](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues) · [Back to the support overview](../README.md)
+
+You can report bugs, Minecraft data corrections, and feature requests through the contact form without a GitHub account or site login. Mention **The Block Graph** and include the relevant details below. Contact reports are private and do not automatically create a public issue. Reading this repository and its issues requires no login. [GitHub report forms](https://github.com/Astro-Atomica/Minecraft-Block-Graph-Public/issues/new/choose), comments, and subscriptions require GitHub sign-in.
 
 Report one distinct problem per issue. Related symptoms of the same problem can stay together.
 
